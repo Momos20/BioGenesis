@@ -6,6 +6,7 @@ import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 
 import { Link } from "react-router-dom";
+const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:5000/productos";
 
 const Products = () => {
   const [data, setData] = useState([]);
@@ -22,7 +23,7 @@ const Products = () => {
   useEffect(() => {
     const getProducts = async () => {
       setLoading(true);
-      const response = await fetch("https://fakestoreapi.com/products/");
+      const response = await fetch("http://localhost:5000/productos");
       if (componentMounted) {
         setData(await response.clone().json());
         setFilter(await response.json());
@@ -36,7 +37,6 @@ const Products = () => {
 
     getProducts();
   }, []);
-
   const Loading = () => {
     return (
       <>
@@ -101,7 +101,12 @@ const Products = () => {
                   </p>
                 </div>
                 <ul className="list-group list-group-flush">
-                  <li className="list-group-item lead">$ {product.price}</li>
+                  <li className="list-group-item lead">Garantía:  {product.warranty}</li>
+                  {/* <li className="list-group-item">Dapibus ac facilisis in</li>
+                    <li className="list-group-item">Vestibulum at eros</li> */}
+                </ul>
+                <ul className="list-group list-group-flush">
+                  <li className="list-group-item lead"> Estado: {product.Estado}</li>
                   {/* <li className="list-group-item">Dapibus ac facilisis in</li>
                     <li className="list-group-item">Vestibulum at eros</li> */}
                 </ul>

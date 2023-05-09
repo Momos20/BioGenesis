@@ -1,0 +1,21 @@
+
+{
+    "productos":[
+        {
+        "id": 1,
+        "title": "Monitor de signos vitales",
+        "price": 109.95,
+        "description": "Equipo para monitorizar signos vitales en pacientes hospitalizados",
+        "category": "men's clothing",
+        "Estado": "Nuevo",
+        "warranty": "1 año",
+        "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "rating": {
+        "rate": 3.9,
+        "count": 120
+        }
+        }
+       
+
+    ]
+}
