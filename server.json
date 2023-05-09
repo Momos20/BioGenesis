@@ -1,21 +1,38 @@
-
 {
-    "productos":[
-        {
-        "id": 1,
-        "title": "Monitor de signos vitales",
-        "price": 109.95,
-        "description": "Equipo para monitorizar signos vitales en pacientes hospitalizados",
-        "category": "men's clothing",
-        "Estado": "Nuevo",
-        "warranty": "1 año",
-        "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-        "rating": {
+  "productos": [
+    {
+      "id": 1,
+      "title": "Monitor de signos vitales",
+      "price": 109.95,
+      "description": "Equipo para monitorizar signos vitales en pacientes hospitalizados",
+      "category": "men's clothing",
+      "Estado": "Nuevo",
+      "warranty": "1 año",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "rating": {
         "rate": 3.9,
         "count": 120
-        }
-        }
-       
-
-    ]
+      }
+    }
+  ],
+  "registro": [
+    {
+      "name": "Camilo",
+      "email": "camizu1120@gmai.com",
+      "password": "q",
+      "id": 1
+    },
+    {
+      "name": "Camilo",
+      "email": "camiz1120@gmai.com",
+      "password": "67",
+      "id": 2
+    },
+    {
+      "name": "Camilo",
+      "email": "camizu1120@gmail.com",
+      "password": "$2a$10$k1yJk2nvmkshHxYbGP4KTedVT/ubZ0xeacnfY8QHZ3Ytx/EAm1eE2",
+      "id": 3
+    }
+  ]
 }

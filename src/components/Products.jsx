@@ -6,7 +6,7 @@ import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 
 import { Link } from "react-router-dom";
-const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:5000/productos";
+
 
 const Products = () => {
   const [data, setData] = useState([]);

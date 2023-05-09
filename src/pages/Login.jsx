@@ -1,8 +1,48 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { Link , useNavigate} from "react-router-dom";
+import axios from 'axios';
 import { Footer, Navbar } from "../components";
 
 const Login = () => {
+  const [message, setMessage] = useState('');
+  const navegate= useNavigate();
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+    const email = formData.get('Email').trim();
+    const password = formData.get('Password').trim();
+  
+    // Verificar si los campos están vacíos
+    if (!email || !password) {
+      setMessage('Email y contraseña son requeridos.');
+      return;
+    }
+  
+    try {
+      // Realizar solicitud GET a la API REST
+      const response = await axios.get('http://localhost:5000/registro');
+  
+      // Comparar los valores del correo y la contraseña con los datos obtenidos en la respuesta
+      const user = response.data.find((user) => user.email === email && user.password === password);
+
+  
+      if (!user) {
+        setMessage('Credenciales inválidas.');
+        return;
+      }
+      
+      setMessage('Inicio de sesión exitoso.');
+      navegate('/'); // Navegar al usuario a la página principal
+    } catch (error) {
+      if (error.response && error.response.data) {
+        setMessage(error.response.data);
+      } else {
+        setMessage('Ha ocurrido un error al iniciar sesión.');
+      }
+    }
+  };
+
   return (
     <>
       <Navbar />
@@ -11,30 +51,34 @@ const Login = () => {
         <hr />
         <div class="row my-4 h-100">
           <div className="col-md-4 col-lg-4 col-sm-8 mx-auto">
-            <form>
+            <form onSubmit={handleSubmit}>
               <div class="my-3">
-                <label for="display-4">Email address</label>
+                <label for="Email">Email address</label>
                 <input
                   type="email"
                   class="form-control"
-                  id="floatingInput"
+                  id="Email"
+                  name="Email"
                   placeholder="name@example.com"
                 />
               </div>
               <div class="my-3">
-                <label for="floatingPassword display-4">Password</label>
+                <label for="Password">Password</label>
                 <input
                   type="password"
                   class="form-control"
-                  id="floatingPassword"
+                  id="Password"
+                  name="Password"
                   placeholder="Password"
                 />
               </div>
+              {message && <div className="my-3 alert alert-success">{message}</div>}
+
               <div className="my-3">
                 <p>New Here? <Link to="/register" className="text-decoration-underline text-info">Register</Link> </p>
               </div>
               <div className="text-center">
-                <button class="my-2 mx-auto btn btn-dark" type="submit" disabled>
+                <button class="my-2 mx-auto btn btn-dark" type="submit">
                   Login
                 </button>
               </div>
