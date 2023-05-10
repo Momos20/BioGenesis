@@ -74,12 +74,13 @@ const Products = () => {
       <>
         <div className="buttons text-center py-5">
           <button className="btn btn-outline-dark btn-sm m-2" onClick={() => setFilter(data)}>All</button>
-          <button className="btn btn-outline-dark btn-sm m-2" onClick={() => filterProduct("men's clothing")}>Men's Clothing</button>
-          <button className="btn btn-outline-dark btn-sm m-2" onClick={() => filterProduct("women's clothing")}>
-            Women's Clothing
+          <button className="btn btn-outline-dark btn-sm m-2" onClick={() => filterProduct("Diagnostic")}>Diagnostic</button>
+          <button className="btn btn-outline-dark btn-sm m-2" onClick={() => filterProduct("Therapeutic ")}>
+          Therapeutic 
           </button>
-          <button className="btn btn-outline-dark btn-sm m-2" onClick={() => filterProduct("jewelery")}>Jewelery</button>
-          <button className="btn btn-outline-dark btn-sm m-2" onClick={() => filterProduct("electronics")}>Electronics</button>
+          <button className="btn btn-outline-dark btn-sm m-2" onClick={() => filterProduct("Monitoring")}>Monitoring</button>
+          <button className="btn btn-outline-dark btn-sm m-2" onClick={() => filterProduct("Surgical ")}>Rehabilitation </button>
+          <button className="btn btn-outline-dark btn-sm m-2" onClick={() => filterProduct("General Services")}>General Services</button>
         </div>
 
         {filter.map((product) => {
@@ -101,18 +102,18 @@ const Products = () => {
                   </p>
                 </div>
                 <ul className="list-group list-group-flush">
-                  <li className="list-group-item lead">Garantía:  {product.warranty}</li>
+                  <li className="list-group-item lead">Warranty:  {product.warranty}</li>
                   {/* <li className="list-group-item">Dapibus ac facilisis in</li>
                     <li className="list-group-item">Vestibulum at eros</li> */}
                 </ul>
                 <ul className="list-group list-group-flush">
-                  <li className="list-group-item lead"> Estado: {product.Estado}</li>
+                  <li className="list-group-item lead"> Status: {product.Estado}</li>
                   {/* <li className="list-group-item">Dapibus ac facilisis in</li>
                     <li className="list-group-item">Vestibulum at eros</li> */}
                 </ul>
                 <div className="card-body">
                   <Link to={"/product/" + product.id} className="btn btn-dark m-1">
-                    Buy Now
+                   characteristics 
                   </Link>
                   <button className="btn btn-dark m-1" onClick={() => addProduct(product)}>
                     Add to Cart
@@ -131,7 +132,7 @@ const Products = () => {
       <div className="container my-3 py-3">
         <div className="row">
           <div className="col-12">
-            <h2 className="display-5 text-center">Latest Products</h2>
+            <h2 className="display-5 text-center">Biomedical products </h2>
             <hr />
           </div>
         </div>
