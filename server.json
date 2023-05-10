@@ -1,0 +1,90 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "title": "Monitor de signos vitales",
+      "price": 109.95,
+      "description": "Equipo para monitorizar signos vitales en pacientes hospitalizados",
+      "category": "Diagnostic",
+      "Estado": "Nuevo",
+      "warranty": "1 año",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "caracteristicas": {
+        "Modelo": "EQUIPO123",
+        "Area_aplicacion": "Cardiología",
+        "Advertencias": "No utilizar en pacientes con marcapasos",
+        "Funciones": "Monitorización de ECG, Pulsioximetría",
+        "Rangos": "Frecuencia cardíaca: 30-250 lpm",
+        "Medidas": "120 x 70 x 160 cm"
+      },
+      "Fabricante":{
+        "Nombre_Empresa": "ABC Medical",
+        "Contacto": 3209876543,
+        "Direccion": "Calle 30 # 40-50",
+        "Email": "info@abcmedical.com",
+        "Calificacion": 4.5
+      }
+      },
+    {
+      "id": 2,
+      "title": "Monitor de signos vitales",
+      "price": 109.95,
+      "description": "Equipo para monitorizar signos vitales en pacientes hospitalizados",
+      "category": "Diagnostic",
+      "Estado": "Nuevo",
+      "warranty": "1 año",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "caracteristicas":
+       {
+        "Modelo": "EQUIPO124",
+        "Area_aplicacion": "Cardiología",
+        "Advertencias": "No utilizar en pacientes con marcapasos",
+        "Funciones": "Monitorización de ECG, Pulsioximetría",
+        "Rangos": "Frecuencia cardíaca: 30-250 lpm",
+        "Medidas": "120 x 70 x 160 cm"
+      },
+      "Fabricante":{
+        "Nombre_Empresa": "ABC Medical",
+        "Contacto": 3209876543,
+        "Direccion": "Calle 30 # 40-50",
+        "Email": "info@abcmedical.com",
+        "Calificacion": 4.5
+      }
+    }
+  ],
+
+  "registro": [
+    {
+      "name": "Camilo",
+      "email": "camizu1120@gmai.com",
+      "password": "q",
+      "id": 1
+    },
+    {
+      "name": "Camilo",
+      "email": "camiz1120@gmai.com",
+      "password": "67",
+      "id": 2
+    },
+    {
+      "name": "Camilo",
+      "email": "camizu1120@gmail.com",
+      "password": "$2a$10$k1yJk2nvmkshHxYbGP4KTedVT/ubZ0xeacnfY8QHZ3Ytx/EAm1eE2",
+      "id": 3
+    },
+    {
+      "name": "Camilo",
+      "email": "camizu1120@gmaail.com",
+      "password": "$2a$10$98mW2qLCj9xzPUn3jzdcPurwweza3KrU2XzDCEmAF4HlIjt2D.dRi",
+      "id": 4
+    }
+  ]
+}

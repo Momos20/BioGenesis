@@ -19,17 +19,18 @@ const Product = () => {
   const addProduct = (product) => {
     dispatch(addCart(product));
   };
+  
 
   useEffect(() => {
     const getProduct = async () => {
       setLoading(true);
       setLoading2(true);
-      const response = await fetch(`https://fakestoreapi.com/products/${id}`);
+      const response = await fetch(`http://localhost:5000/productos/${id}`);
       const data = await response.json();
       setProduct(data);
       setLoading(false);
       const response2 = await fetch(
-        `https://fakestoreapi.com/products/category/${data.category}`
+        `http://localhost:5000/productos?category=${data.category}`
       );
       const data2 = await response2.json();
       setSimilarProducts(data2);
@@ -82,8 +83,20 @@ const Product = () => {
                 {product.rating && product.rating.rate}{" "}
                 <i className="fa fa-star"></i>
               </p>
-              <h3 className="display-6  my-4">${product.price}</h3>
-              <p className="lead">{product.description}</p>
+              <p className="lead">
+                
+                Fabricante: {product.Fabricante && product.Fabricante.Nombre_Empresa}{" "}
+                </p>
+              <p className="lead">
+                
+              Modelo: {product.caracteristicas && product.caracteristicas.Modelo}{" "}
+              </p>
+              <p className="lead">
+              Area_aplicacion: {product.caracteristicas && product.caracteristicas.Area_aplicacion}{" "}
+              </p>
+              <p className="lead">
+              Funciones: {product.caracteristicas && product.caracteristicas.Funciones}{" "}  
+                </p>
               <button
                 className="btn btn-outline-dark"
                 onClick={() => addProduct(product)}

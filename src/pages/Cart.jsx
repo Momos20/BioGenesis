@@ -149,7 +149,7 @@ const Cart = () => {
                       to="/checkout"
                       className="btn btn-dark btn-lg btn-block"
                     >
-                      Go to checkout
+                      Agendar cita
                     </Link>
                   </div>
                 </div>
