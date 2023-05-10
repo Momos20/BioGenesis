@@ -3,7 +3,7 @@ import { Link , useNavigate} from "react-router-dom";
 import axios from 'axios';
 import { Footer, Navbar } from "../components";
 
-const Login = () => {
+const Login = ({ onLogin }) => {
   const [message, setMessage] = useState('');
   const navegate= useNavigate();
 
@@ -25,14 +25,14 @@ const Login = () => {
   
       // Comparar los valores del correo y la contraseña con los datos obtenidos en la respuesta
       const user = response.data.find((user) => user.email === email && user.password === password);
-
   
       if (!user) {
         setMessage('Credenciales inválidas.');
         return;
       }
-      
+  
       setMessage('Inicio de sesión exitoso.');
+      onLogin(true); // Llamar a la función onLogin pasando true como parámetro
       navegate('/'); // Navegar al usuario a la página principal
     } catch (error) {
       if (error.response && error.response.data) {

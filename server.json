@@ -33,6 +33,12 @@
       "email": "camizu1120@gmail.com",
       "password": "$2a$10$k1yJk2nvmkshHxYbGP4KTedVT/ubZ0xeacnfY8QHZ3Ytx/EAm1eE2",
       "id": 3
+    },
+    {
+      "name": "Camilo",
+      "email": "camizu1120@gmaail.com",
+      "password": "$2a$10$98mW2qLCj9xzPUn3jzdcPurwweza3KrU2XzDCEmAF4HlIjt2D.dRi",
+      "id": 4
     }
   ]
 }
