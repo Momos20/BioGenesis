@@ -74,18 +74,29 @@
     },
     {
       "name": "Camilo",
-      "email": "camizu1120@gmail.com",
-      "password": "$2a$10$k1yJk2nvmkshHxYbGP4KTedVT/ubZ0xeacnfY8QHZ3Ytx/EAm1eE2",
+      "email": "camizu112@gmai.com",
+      "password": "$2a$10$Ov.aMgz9lIuDNOcVFWb8d.b/kTxa2Yr5MHzB2Vdw/c.wz2OUODLIy",
       "id": 3
-    },
-    {
-      "name": "Camilo",
-      "email": "camizu1120@gmaail.com",
-      "password": "$2a$10$98mW2qLCj9xzPUn3jzdcPurwweza3KrU2XzDCEmAF4HlIjt2D.dRi",
-      "id": 4
     }
   ],
   "citas": [
-    
+    {
+      "representative": "Juan Cmailo",
+      "email": "camizu1120@gmail.com",
+      "address": "carrera 50a #107-47",
+      "optional": "",
+      "country": "Colombia",
+      "state": "Antioquia",
+      "zip": "050001",
+      "id": 1
+    }
+  ],
+  "contacto": [
+    {
+      "name": "Juan Cataño",
+      "email": "camizu1120@gmail.com",
+      "message": "Tengo problemas con el codigo",
+      "id": 1
+    }
   ]
 }
