@@ -13,7 +13,6 @@ const handleCart = (state=cart, action) =>{
             else{
                 return [...state, {...product, qty:1}]
             }
-            break;
         case "DELITEM":
             const exist2 = state.find((x) => x.id === product.id)
             if(exist2.qty === 1){
@@ -22,11 +21,9 @@ const handleCart = (state=cart, action) =>{
             else{
                 return state.map((x)=> x.id===product.id?{...x, qty:x.qty-1}:x)
             }
-            break;
 
         default:
             return state
-            break;
     }
 }
 

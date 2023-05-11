@@ -21,14 +21,14 @@
         "Rangos": "Frecuencia cardíaca: 30-250 lpm",
         "Medidas": "120 x 70 x 160 cm"
       },
-      "Fabricante":{
+      "Fabricante": {
         "Nombre_Empresa": "ABC Medical",
         "Contacto": 3209876543,
         "Direccion": "Calle 30 # 40-50",
         "Email": "info@abcmedical.com",
         "Calificacion": 4.5
       }
-      },
+    },
     {
       "id": 2,
       "title": "Monitor de signos vitales",
@@ -42,8 +42,7 @@
         "rate": 3.9,
         "count": 120
       },
-      "caracteristicas":
-       {
+      "caracteristicas": {
         "Modelo": "EQUIPO124",
         "Area_aplicacion": "Cardiología",
         "Advertencias": "No utilizar en pacientes con marcapasos",
@@ -51,7 +50,7 @@
         "Rangos": "Frecuencia cardíaca: 30-250 lpm",
         "Medidas": "120 x 70 x 160 cm"
       },
-      "Fabricante":{
+      "Fabricante": {
         "Nombre_Empresa": "ABC Medical",
         "Contacto": 3209876543,
         "Direccion": "Calle 30 # 40-50",
@@ -60,7 +59,6 @@
       }
     }
   ],
-
   "registro": [
     {
       "name": "Camilo",
@@ -86,5 +84,8 @@
       "password": "$2a$10$98mW2qLCj9xzPUn3jzdcPurwweza3KrU2XzDCEmAF4HlIjt2D.dRi",
       "id": 4
     }
+  ],
+  "citas": [
+    
   ]
 }

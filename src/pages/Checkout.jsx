@@ -1,9 +1,50 @@
-import React from "react";
+import React, { useState } from 'react'
+import axios from 'axios';
 import { Footer, Navbar } from "../components";
-import { useSelector } from "react-redux";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { setUserID } from '../redux/action';
+import { useDispatch, useSelector } from 'react-redux';
 const Checkout = () => {
+  const dispatch = useDispatch();
   const state = useSelector((state) => state.handleCart);
+  const navigate = useNavigate();
+  const setMessage = useState('')[1];
+  const options = {
+    timeout: 10000 // 10 segundos en milisegundos
+  };
+  
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+    const representative = formData.get('representative').trim();
+    const email = formData.get('email').trim();
+    const address = formData.get('address').trim();
+    const optional = formData.get('optional').trim();
+    const country = formData.get('country').trim();
+    const state = formData.get('state').trim();
+    const zip = formData.get('zip').trim();
+  
+    // Verificar si los campos obligatorios están vacíos
+    if (!representative || !email || !address || !country || !state || !zip) {
+      setMessage('Los campos obligatorios son requeridos.');
+      return;
+    }
+  
+    // Insertar los datos en la base de datos
+    const data = { representative, email, address, optional, country, state, zip, id: state.userID };
+    try {
+      const response = await axios.post('http://localhost:5000/citas', data, options);
+      setMessage(response.data);
+      dispatch(setUserID(response.data.id)); // actualizar el ID del usuario en el store
+      navigate('/');
+    } catch (error) {
+      if (error.response && error.response.data) {
+        setMessage(error.response.data);
+      } else {
+        setMessage('Ha ocurrido un error al enviar el formulario.');
+      }
+    }
+  };
 
   const EmptyCart = () => {
     return (
@@ -67,44 +108,27 @@ const Checkout = () => {
                   <h4 className="mb-0">Schedule your appointment</h4>
                 </div>
                 <div className="card-body">
-                  <form className="needs-validation" novalidate>
+                  <form onSubmit={handleSubmit} className="needs-validation" >
                     <div className="row g-3">
-                      <div className="col-sm-6 my-1">
-                        <label for="firstName" className="form-label">
-                          First name
+                      <div className="col-12 my-1">
+                        <label htmlFor="representative" className="form-label">
+                          Representative
                         </label>
                         <input
                           type="text"
                           className="form-control"
-                          id="firstName"
-                          placeholder=""
-                          value=""
+                          id="representative"
+                          placeholder="Your name"
                           required
+                          name="representative"
                         />
                         <div className="invalid-feedback">
                           Valid first name is required.
                         </div>
                       </div>
 
-                      <div className="col-sm-6 my-1">
-                        <label for="lastName" className="form-label">
-                          Last name
-                        </label>
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="lastName"
-                          placeholder=""
-                          value=""
-                          required
-                        />
-                        <div className="invalid-feedback">
-                          Valid last name is required.
-                        </div>
-                      </div>
-
                       <div className="col-12 my-1">
-                        <label for="email" className="form-label">
+                        <label htmlFor="email" className="form-label">
                           Email
                         </label>
                         <input
@@ -113,6 +137,7 @@ const Checkout = () => {
                           id="email"
                           placeholder="you@example.com"
                           required
+                          name="email"
                         />
                         <div className="invalid-feedback">
                           Please enter a valid email address for shipping
@@ -121,7 +146,7 @@ const Checkout = () => {
                       </div>
 
                       <div className="col-12 my-1">
-                        <label for="address" className="form-label">
+                        <label htmlFor="address" className="form-label">
                           Address
                         </label>
                         <input
@@ -130,6 +155,7 @@ const Checkout = () => {
                           id="address"
                           placeholder="1234 Main St"
                           required
+                          name="address"
                         />
                         <div className="invalid-feedback">
                           Please enter your shipping address.
@@ -137,55 +163,65 @@ const Checkout = () => {
                       </div>
 
                       <div className="col-12">
-                        <label for="address2" className="form-label">
-                          Address 2{" "}
+                        <label htmlFor="opcional" className="form-label">
+                          {" "}
                           <span className="text-muted">(Optional)</span>
                         </label>
                         <input
                           type="text"
                           className="form-control"
-                          id="address2"
+                          id="opcional"
                           placeholder="Apartment or suite"
+                          name="optional"
                         />
                       </div>
 
                       <div className="col-md-5 my-1">
-                        <label for="country" className="form-label">
+                        <label htmlFor="country" className="form-label">
                           Country
                         </label>
                         <br />
-                        <select className="form-select" id="country" required>
-                          <option value="">Choose...</option>
-                          <option>Colombia</option>
-                        </select>
+                        <input
+                          type="text"
+                          className="form-control"
+                          id="country"
+                          placeholder="Colombia"
+                          name="country"
+                          required
+                        />
                         <div className="invalid-feedback">
                           Please select a valid country.
                         </div>
                       </div>
 
                       <div className="col-md-4 my-1">
-                        <label for="state" className="form-label">
+                        <label htmlFor="state" className="form-label">
                           State
                         </label>
                         <br />
-                        <select className="form-select" id="state" required>
-                          <option value="">Choose...</option>
-                          <option>Punjab</option>
-                        </select>
+                        <input
+                          type="text"
+                          className="form-control"
+                          id="astate"
+                          placeholder="Antioquia"
+                          name="state"
+                          required
+                        />
                         <div className="invalid-feedback">
                           Please provide a valid state.
                         </div>
                       </div>
 
                       <div className="col-md-3 my-1">
-                        <label for="zip" className="form-label">
-                          Zip
+                        <label htmlFor="zip" className="form-label">
+                          Zip code
                         </label>
                         <input
                           type="text"
                           className="form-control"
                           id="zip"
                           placeholder=""
+                          name="zip"
                           required
                         />
                         <div className="invalid-feedback">
@@ -194,19 +230,11 @@ const Checkout = () => {
                       </div>
                     </div>
 
-             
-
-
-
-                    
-
-      
-
                     <button
                       className="w-100 btn btn-primary "
-                      type="submit" disabled
+                      type="submit"
                     >
-                      Schedule
+                      send data
                     </button>
                   </form>
                 </div>

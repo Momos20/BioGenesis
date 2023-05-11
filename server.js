@@ -27,3 +27,28 @@ app.post('/registro', (req, res) => {
     // Responder con un mensaje de éxito
     res.send('Registro exitoso');
 });
+
+
+app.post('/citas', (req, res) => {
+    // Obtener la información del formulario
+    const {representative, email, adress, opcional,country,state,zip } = req.body;
+    // Leer los datos del archivo JSON
+    const data = fs.readFileSync('server.json');
+    const json = JSON.parse(data);
+    // Crear un nuevo objeto con la información de la cita
+    const newCita = {
+      representative,
+      email,
+      adress,
+      opcional,
+      country,
+      state,
+      zip
+    };
+    // Agregar el nuevo objeto al arreglo de citas en el archivo JSON
+    json.citas.push(newCita);
+    // Escribir los datos actualizados en el archivo JSON
+    fs.writeFileSync('server.json', JSON.stringify(json, null, 2));
+    // Responder con un mensaje de éxito
+    res.send('Cita creada exitosamente');
+  });

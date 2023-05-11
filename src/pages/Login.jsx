@@ -5,6 +5,7 @@ import { Footer, Navbar } from "../components";
 
 const Login = ({ onLogin }) => {
   const [message, setMessage] = useState('');
+  const [userID, setUserID] = useState(null); // Agregar estado para almacenar el ID del usuario
   const navegate= useNavigate();
 
   const handleSubmit = async (event) => {
@@ -32,7 +33,12 @@ const Login = ({ onLogin }) => {
       }
   
       setMessage('Inicio de sesión exitoso.');
+      setUserID(user.id); // Guardar el ID del usuario en el estado userID
       onLogin(true); // Llamar a la función onLogin pasando true como parámetro
+      
+      // Almacenar el userID en el almacenamiento local
+      localStorage.setItem('userID', user.id);
+      
       navegate('/'); // Navegar al usuario a la página principal
     } catch (error) {
       if (error.response && error.response.data) {
@@ -49,24 +55,24 @@ const Login = ({ onLogin }) => {
       <div className="container my-3 py-3">
         <h1 className="text-center">Login</h1>
         <hr />
-        <div class="row my-4 h-100">
+        <div className="row my-4 h-100">
           <div className="col-md-4 col-lg-4 col-sm-8 mx-auto">
             <form onSubmit={handleSubmit}>
-              <div class="my-3">
-                <label for="Email">Email address</label>
+              <div className="my-3">
+                <label htmlFor="Email">Email address</label>
                 <input
                   type="email"
-                  class="form-control"
+                  className="form-control"
                   id="Email"
                   name="Email"
                   placeholder="name@example.com"
                 />
               </div>
-              <div class="my-3">
-                <label for="Password">Password</label>
+              <div className="my-3">
+                <label htmlFor="Password">Password</label>
                 <input
                   type="password"
-                  class="form-control"
+                  className="form-control"
                   id="Password"
                   name="Password"
                   placeholder="Password"
@@ -78,7 +84,7 @@ const Login = ({ onLogin }) => {
                 <p>New Here? <Link to="/register" className="text-decoration-underline text-info">Register</Link> </p>
               </div>
               <div className="text-center">
-                <button class="my-2 mx-auto btn btn-dark" type="submit">
+                <button className="my-2 mx-auto btn btn-dark" type="submit">
                   Login
                 </button>
               </div>
