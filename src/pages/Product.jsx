@@ -164,7 +164,7 @@ const Product = () => {
                       to={"/product/" + item.id}
                       className="btn btn-dark m-1"
                     >
-                      characteristics 
+                      Buy No
                     </Link>
                     <button
                       className="btn btn-dark m-1"
