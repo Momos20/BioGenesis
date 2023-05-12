@@ -87,39 +87,39 @@ const Products = () => {
           return (
             <div id={product.id} key={product.id} className="col-md-4 col-sm-6 col-xs-8 col-12 mb-4">
               <div className="card text-center h-100" key={product.id}>
-                <img
-                  className="card-img-top p-3"
-                  src={product.image}
-                  alt="Card"
-                  height={300}
-                />
-                <div className="card-body">
-                  <h5 className="card-title">
-                    {product.title.substring(0, 12)}...
-                  </h5>
-                  <p className="card-text">
-                    {product.description.substring(0, 90)}...
-                  </p>
-                </div>
-                <ul className="list-group list-group-flush">
-                  <li className="list-group-item lead">Warranty:  {product.warranty}</li>
-                  {/* <li className="list-group-item">Dapibus ac facilisis in</li>
-                    <li className="list-group-item">Vestibulum at eros</li> */}
-                </ul>
-                <ul className="list-group list-group-flush">
-                  <li className="list-group-item lead"> Status: {product.Estado}</li>
-                  {/* <li className="list-group-item">Dapibus ac facilisis in</li>
-                    <li className="list-group-item">Vestibulum at eros</li> */}
-                </ul>
-                <div className="card-body">
-                  <Link to={"/product/" + product.id} className="btn btn-dark m-1">
-                   Characteristics 
-                  </Link>
-                  <button className="btn btn-dark m-1" onClick={() => addProduct(product)}>
-                    Add to Cart
-                  </button>
-                </div>
-              </div>
+            <img
+              className="card-img-top p-3"
+              src={product.image}
+              alt="Card"
+              height={300}
+            />
+            <div className="card-body">
+              <h5 className="card-title">
+                {product.title.substring(0, 12)}...
+              </h5>
+              <p className="card-text">
+                {product.description.substring(0, 90)}...
+              </p>
+            </div>
+            <ul className="list-group list-group-flush">
+              <li className="list-group-item font-weight-bold">Warranty: {product.warranty}</li>
+              {/* <li className="list-group-item">Dapibus ac facilisis in</li>
+                  <li className="list-group-item">Vestibulum at eros</li> */}
+            </ul>
+            <ul className="list-group list-group-flush">
+              <li className="list-group-item font-weight-bold">Status: {product.Estado}</li>
+              {/* <li className="list-group-item">Dapibus ac facilisis in</li>
+                  <li className="list-group-item">Vestibulum at eros</li> */}
+            </ul>
+            <div className="card-body">
+              <Link to={"/product/" + product.id} className="btn btn-dark m-1">
+                Characteristics
+              </Link>
+              <button className="btn btn-dark m-1" onClick={() => addProduct(product)}>
+                Add to Cart
+              </button>
+            </div>
+          </div>
             </div>
 
           );
@@ -132,7 +132,7 @@ const Products = () => {
       <div className="container my-3 py-3">
         <div className="row">
           <div className="col-12">
-            <h2 className="display-5 text-center">Biomedical products </h2>
+          <h2 className="display-5 text-center  font-weight-bold">Biomedical products</h2>
             <hr />
           </div>
         </div>
