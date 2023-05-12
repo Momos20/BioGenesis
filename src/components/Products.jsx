@@ -75,12 +75,12 @@ const Products = () => {
         <div className="buttons text-center py-5">
           <button className="btn btn-outline-dark btn-sm m-2" onClick={() => setFilter(data)}>All</button>
           <button className="btn btn-outline-dark btn-sm m-2" onClick={() => filterProduct("Diagnostic")}>Diagnostic</button>
-          <button className="btn btn-outline-dark btn-sm m-2" onClick={() => filterProduct("Therapeutic ")}>
+          <button className="btn btn-outline-dark btn-sm m-2" onClick={() => filterProduct("Therapeutic")}>
           Therapeutic 
           </button>
           <button className="btn btn-outline-dark btn-sm m-2" onClick={() => filterProduct("Monitoring")}>Monitoring</button>
-          <button className="btn btn-outline-dark btn-sm m-2" onClick={() => filterProduct("Surgical ")}>Rehabilitation </button>
-          <button className="btn btn-outline-dark btn-sm m-2" onClick={() => filterProduct("General Services")}>General Services</button>
+          <button className="btn btn-outline-dark btn-sm m-2" onClick={() => filterProduct("Rehabilitation")}>Rehabilitation </button>
+          <button className="btn btn-outline-dark btn-sm m-2" onClick={() => filterProduct("GeneralServices")}>General Services</button>
         </div>
 
         {filter.map((product) => {
@@ -113,7 +113,7 @@ const Products = () => {
                 </ul>
                 <div className="card-body">
                   <Link to={"/product/" + product.id} className="btn btn-dark m-1">
-                   characteristics 
+                   Characteristics 
                   </Link>
                   <button className="btn btn-dark m-1" onClick={() => addProduct(product)}>
                     Add to Cart
