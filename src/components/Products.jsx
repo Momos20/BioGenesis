@@ -69,6 +69,13 @@ const Products = () => {
     const updatedList = data.filter((item) => item.category === cat);
     setFilter(updatedList);
   }
+
+  const filterProductByRating = (minRating) => {
+    const updatedList = data.filter((item) => item.rating.rate >= minRating);
+    setFilter(updatedList);
+  };
+
+  
   const ShowProducts = () => {
     return (
       <>
@@ -81,10 +88,13 @@ const Products = () => {
           <button className="btn btn-outline-dark btn-sm m-2" onClick={() => filterProduct("Monitoring")}>Monitoring</button>
           <button className="btn btn-outline-dark btn-sm m-2" onClick={() => filterProduct("Rehabilitation")}>Rehabilitation </button>
           <button className="btn btn-outline-dark btn-sm m-2" onClick={() => filterProduct("GeneralServices")}>General Services</button>
+          <button className="btn btn-outline-dark btn-sm m-2" onClick={() => filterProductByRating(4.5)}>Rating &gt;= 4.5</button>
         </div>
 
         {filter.map((product) => {
           return (
+
+            
             <div id={product.id} key={product.id} className="col-md-4 col-sm-6 col-xs-8 col-12 mb-4">
               <div className="card text-center h-100" key={product.id}>
             <img
