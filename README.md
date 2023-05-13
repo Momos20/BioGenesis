@@ -17,7 +17,7 @@ Si estás interesado/a en alguno de nuestros productos, no dudes en agendar una 
 
 ## Autores
 
-- Manuela Ospina Giraldo
+
 - Tatiana Camila Córdoba Acosta
 - Sara Pérez Higuita
 - Juan Camilo Cataño Zuleta
