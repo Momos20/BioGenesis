@@ -11,7 +11,7 @@ Si estás interesado/a en alguno de nuestros productos, no dudes en agendar una 
 
 #### Código para iniciar el server
 
-```http
+```
   npx json-server --watch server.json --port 5000
 ```
 
