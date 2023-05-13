@@ -3,6 +3,7 @@ import { Footer, Navbar } from "../components";
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 const ContactPage = () => {
+  // eslint-disable-next-line
   const [message, setMessage] = useState('');
     const navigate = useNavigate();
 
@@ -17,7 +18,7 @@ const ContactPage = () => {
       
         // Verificar si los campos están vacíos
         if (!name || !email || !message) {
-          setMessage('Todos los campos son obligatorios.');
+          setMessage('All fields are required');
           return;
         }
             // Insertar los datos en la base de datos
@@ -30,7 +31,7 @@ const ContactPage = () => {
           if (error.response && error.response.data) {
             setMessage(error.response.data);
           } else {
-            setMessage('Ha ocurrido un error al enviar el de contacto.');
+            setMessage('An error occurred while sending the contact form');
           }
         }
       };

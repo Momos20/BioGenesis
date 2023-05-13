@@ -88,7 +88,7 @@ const Products = () => {
           <button className="btn btn-outline-dark btn-sm m-2" onClick={() => filterProduct("Monitoring")}>Monitoring</button>
           <button className="btn btn-outline-dark btn-sm m-2" onClick={() => filterProduct("Rehabilitation")}>Rehabilitation </button>
           <button className="btn btn-outline-dark btn-sm m-2" onClick={() => filterProduct("GeneralServices")}>General Services</button>
-          <button className="btn btn-outline-dark btn-sm m-2" onClick={() => filterProductByRating(4.5)}>Rating &gt;= 4.5</button>
+          <button className="btn btn-outline-dark btn-sm m-2" onClick={() => filterProductByRating(4.5)}>best score</button>
         </div>
 
         {filter.map((product) => {

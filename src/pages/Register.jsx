@@ -31,7 +31,7 @@ const Register = () => {
         // Buscar si el correo electrónico ya está registrado
         const user = users.find(u => u.email === email);
         if (user) {
-          setMessage('El correo electrónico ya está registrado.');
+          setMessage('The e-mail address is already registered');
           return;
         }
       
@@ -45,7 +45,7 @@ const Register = () => {
           if (error.response && error.response.data) {
             setMessage(error.response.data);
           } else {
-            setMessage('Ha ocurrido un error al enviar el formulario.');
+            setMessage('An error occurred while sending the form');
           }
         }
       };

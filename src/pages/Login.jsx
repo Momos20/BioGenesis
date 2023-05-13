@@ -2,10 +2,13 @@ import React, { useState } from "react";
 import { Link , useNavigate} from "react-router-dom";
 import axios from 'axios';
 import { Footer, Navbar } from "../components";
+import bcrypt from 'bcryptjs';
+
 
 const Login = ({ onLogin }) => {
   const [message, setMessage] = useState('');
-  const [userID, setUserID] = useState(null); // Agregar estado para almacenar el ID del usuario
+  // eslint-disable-next-line
+  const [userID, setUserID] = useState(null);
   const navegate= useNavigate();
 
   const handleSubmit = async (event) => {
@@ -16,7 +19,7 @@ const Login = ({ onLogin }) => {
   
     // Verificar si los campos están vacíos
     if (!email || !password) {
-      setMessage('Email y contraseña son requeridos.');
+      setMessage('Email and password are rresolve: {  fallback: {    "crypto": require.resolve("crypto-browserify")  }}equired.');
       return;
     }
   
@@ -24,27 +27,29 @@ const Login = ({ onLogin }) => {
       // Realizar solicitud GET a la API REST
       const response = await axios.get('http://localhost:5000/registro');
   
-      // Comparar los valores del correo y la contraseña con los datos obtenidos en la respuesta
-      const user = response.data.find((user) => user.email === email && user.password === password);
-  
-      if (!user) {
-        setMessage('Credenciales inválidas.');
+      // Buscar el usuario por correo electrónico
+      const user = response.data.find((user) => user.email === email);
+
+      // Comprobar si el usuario existe y si la contraseña es correcta
+      if (!user || !bcrypt.compareSync(password, user.password)) {
+        setMessage('Invalid credentials');
         return;
       }
-  
-      setMessage('Inicio de sesión exitoso.');
-      setUserID(user.id); // Guardar el ID del usuario en el estado userID
-      onLogin(true); // Llamar a la función onLogin pasando true como parámetro
+
+      // Inicio de sesión exitoso
+      setMessage('Successful login.');
+      setUserID(user.id);
+      onLogin(true);
       
       // Almacenar el userID en el almacenamiento local
       localStorage.setItem('userID', user.id);
       
-      navegate('/'); // Navegar al usuario a la página principal
+      navegate('/');
     } catch (error) {
       if (error.response && error.response.data) {
         setMessage(error.response.data);
       } else {
-        setMessage('Ha ocurrido un error al iniciar sesión.');
+        setMessage('An error occurred while logging in');
       }
     }
   };

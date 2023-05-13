@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Monitor de signos vitales Mindray BeneVision N1",
-      "price": 3250.00,
+      "price": 3250,
       "description": "El monitor de signos vitales Mindray BeneVision N1 es un dispositivo portátil y ligero que ofrece una monitorización precisa y fiable de los signos vitales en entornos clínicos y hospitalarios.",
       "category": "Monitoring",
       "Estado": "Nuevo",
@@ -28,12 +28,11 @@
         "Email": "info@mindray.com",
         "Calificacion": 4.7
       }
-    }
-    ,
+    },
     {
       "id": 2,
       "title": "Ultrasonido de diagnóstico DRTECH AIDIA",
-      "price": 22999.00,
+      "price": 22999,
       "description": "El equipo de ultrasonido de diagnóstico DRTECH AIDIA es una solución de imagen avanzada y portátil para la visualización de tejidos blandos en una amplia variedad de aplicaciones médicas.",
       "category": "Diagnostic",
       "Estado": "Nuevo",
@@ -62,409 +61,409 @@
     {
       "id": 3,
       "title": "Ultrasonido de diagnóstico P3 OTHOMEDIC de Mindray",
-      "price": 13500.00,
+      "price": 13500,
       "description": "El ultrasonido de diagnóstico P3 OTHOMEDIC de Mindray es un equipo de ultrasonido portátil diseñado especialmente para la aplicación en ortopedia y traumatología, con una excelente calidad de imagen y una interfaz de usuario intuitiva que facilita la operación del equipo. Este equipo es una solución eficaz y rentable para el diagnóstico y el seguimiento de diversas lesiones musculoesqueléticas.",
       "category": "Diagnostic",
       "Estado": "Nuevo",
       "warranty": "1 año",
       "image": "https://www.promedco.com/images/Productos/EQUIPOS-DE-DIAGNOSTICO/P3-1.png",
       "rating": {
-      "rate": 4.5,
-      "count": 10
+        "rate": 4.5,
+        "count": 10
       },
       "caracteristicas": {
-      "Modelo": "P3 OTHOMEDIC",
-      "Area_aplicacion": "Ortopedia y traumatología",
-      "Advertencias": "No usar en pacientes con marcapasos o desfibriladores implantados",
-      "Funciones": "Imagenología de alta calidad, Doppler color, Doppler de onda pulsada, Modo M, Modo B, Análisis automático de tejidos",
-      "Rangos": "Frecuencia de trabajo: 2-15 MHz, Profundidad de imagen: 2-12 cm",
-      "Medidas": "Dimensiones: 31.5 cm x 22.5 cm x 7.5 cm, Peso: 2.2 kg"
+        "Modelo": "P3 OTHOMEDIC",
+        "Area_aplicacion": "Ortopedia y traumatología",
+        "Advertencias": "No usar en pacientes con marcapasos o desfibriladores implantados",
+        "Funciones": "Imagenología de alta calidad, Doppler color, Doppler de onda pulsada, Modo M, Modo B, Análisis automático de tejidos",
+        "Rangos": "Frecuencia de trabajo: 2-15 MHz, Profundidad de imagen: 2-12 cm",
+        "Medidas": "Dimensiones: 31.5 cm x 22.5 cm x 7.5 cm, Peso: 2.2 kg"
       },
       "Fabricante": {
-      "Nombre_Empresa": "Mindray",
-      "Contacto": "+86 755 8188 8998",
-      "Direccion": "Mindray Building, Keji 12th Road South, High-tech Industrial Park, Nanshan, Shenzhen 518057, P. R. China",
-      "Email": "info@mindray.com",
-      "Calificacion": 4.8
+        "Nombre_Empresa": "Mindray",
+        "Contacto": "+86 755 8188 8998",
+        "Direccion": "Mindray Building, Keji 12th Road South, High-tech Industrial Park, Nanshan, Shenzhen 518057, P. R. China",
+        "Email": "info@mindray.com",
+        "Calificacion": 4.8
       }
-      },
-      {
-        "id": 4,
-        "title": "Máquina de anestesia A7 de Mindray",
-        "price": 28999.00,
-        "description": "La máquina de anestesia A7 de Mindray es un equipo de anestesia avanzado que ofrece una excelente precisión y seguridad en el control de la ventilación, la administración de anestésicos y el monitoreo de los signos vitales del paciente. Este equipo es una solución ideal para la gestión de la anestesia en cirugías de diversos tipos y complejidades.",
-        "category": "GeneralServices",
-        "Estado": "Nuevo",
-        "warranty": "2 años",
-        "image": "https://www.promedco.com/images/Productos/MONITOREO-Y-SOPORTE-VITAL/MAQUINA-DE-ANESTESIA/A7-1.png",
-        "rating": {
+    },
+    {
+      "id": 4,
+      "title": "Máquina de anestesia A7 de Mindray",
+      "price": 28999,
+      "description": "La máquina de anestesia A7 de Mindray es un equipo de anestesia avanzado que ofrece una excelente precisión y seguridad en el control de la ventilación, la administración de anestésicos y el monitoreo de los signos vitales del paciente. Este equipo es una solución ideal para la gestión de la anestesia en cirugías de diversos tipos y complejidades.",
+      "category": "GeneralServices",
+      "Estado": "Nuevo",
+      "warranty": "2 años",
+      "image": "https://www.promedco.com/images/Productos/MONITOREO-Y-SOPORTE-VITAL/MAQUINA-DE-ANESTESIA/A7-1.png",
+      "rating": {
         "rate": 4.7,
         "count": 15
-        },
-        "caracteristicas": {
+      },
+      "caracteristicas": {
         "Modelo": "A7",
         "Area_aplicacion": "Anestesia",
         "Advertencias": "Este equipo debe ser utilizado únicamente por personal médico capacitado y entrenado en el uso de equipos de anestesia.",
         "Funciones": "Control de la ventilación, administración de anestésicos, monitoreo de signos vitales, ventilación mecánica invasiva y no invasiva, ajuste automático de la presión de las vías respiratorias",
         "Rangos": "Volumen corriente: 20-1500 ml, Frecuencia respiratoria: 2-80 bpm, FiO2: 21-100%, Presión de las vías respiratorias: 0-100 cmH2O",
         "Medidas": "Dimensiones: 125 cm x 80 cm x 155 cm, Peso: 135 kg"
-        },
-        "Fabricante": {
+      },
+      "Fabricante": {
         "Nombre_Empresa": "Mindray",
         "Contacto": "+86 755 8188 8998",
         "Direccion": "Mindray Building, Keji 12th Road South, High-tech Industrial Park, Nanshan, Shenzhen 518057, P. R. China",
         "Email": "info@mindray.com",
         "Calificacion": 4.8
-        }
-        },
-        {
-          "id": 5,
-          "title": "Ultrasonido Cardiovascular Philips EPIQ Affiniti 70 CVx",
-          "price": 85000.00,
-          "description": "El Cardiovascular ultrasound Philips EPIQ Affiniti 70 CVx es un equipo de ultrasonido cardiovascular de alta gama que ofrece una calidad de imagen excepcional y una amplia gama de herramientas de diagnóstico avanzadas para la evaluación no invasiva de las enfermedades cardiovasculares. Este equipo cuenta con la tecnología avanzada de PureWave y una plataforma completamente rediseñada que proporciona una experiencia de usuario excepcional y una mayor eficiencia en la práctica clínica.",
-          "category": "Diagnostic",
-          "Estado": "Nuevo",
-          "warranty": "3 años",
-          "image": "https://www.philips.co.uk/c-dam/b2bhc/master/ultrasound/general-imaging/epiq-cvx.png",
-          "rating": {
-          "rate": 4.9,
-          "count": 22
-          },
-          "caracteristicas": {
-          "Modelo": "EPIQ Affiniti 70 CVx",
-          "Area_aplicacion": "Ultrasonido cardiovascular",
-          "Advertencias": "Este equipo debe ser utilizado únicamente por personal médico capacitado y entrenado en el uso de equipos de ultrasonido.",
-          "Funciones": "Doppler color, mapeo de tejido, estrés farmacológico, 4D en tiempo real, análisis cuantitativo de imágenes, automatización de mediciones",
-          "Rangos": "Frecuencia de trabajo: 1-5 MHz, profundidad máxima de imagen: 40 cm, velocidad de cuadros en 2D: 90 fps, velocidad de cuadros en 4D: 30 fps",
-          "Medidas": "Dimensiones: 70 cm x 144 cm x 161 cm, Peso: 500 kg"
-          },
-          "Fabricante": {
-          "Nombre_Empresa": "Philips",
-          "Contacto": "+31 40 27 91111",
-          "Direccion": "Philips Bldg. 5F, Amstelplein 2, 1096 BC Amsterdam, Países Bajos",
-          "Email": "info@philips.com",
-          "Calificacion": 4.7
-          }
-          },
-          {
-            "id": 6,
-            "title": "Monitor de signos vitales IntelliVue MX850",
-            "price": 11500.00,
-            "description": "El monitor de signos vitales IntelliVue MX850 de Philips proporciona una amplia gama de mediciones de parámetros fisiológicos, monitoreo de la función respiratoria y diagnóstico de arritmias.",
-            "category": "Monitoring",
-            "Estado": "Nuevo",
-            "warranty": "1 año",
-            "image": "https://images.philips.com/is/image/philipsconsumer/7a1df1a54ca4420a9c76aa8b00db4b44?$jpglarge$&wid=420&hei=360",
-            "rating": {
-              "rate": 4.5,
-              "count": 25
-            },
-            "caracteristicas": {
-              "Modelo": "IntelliVue MX850",
-              "Area_aplicacion": "Unidades de cuidados intensivos, salas de operaciones, servicios de urgencias",
-              "Advertencias": "Este dispositivo debe ser operado únicamente por personal capacitado y autorizado",
-              "Funciones": "Medición de la presión arterial, frecuencia cardíaca, frecuencia respiratoria, saturación de oxígeno, temperatura, entre otros",
-              "Rangos": "Presión arterial: 30 - 300 mmHg, frecuencia cardíaca: 20 - 300 bpm, frecuencia respiratoria: 5 - 150 bpm, saturación de oxígeno: 0 - 100%, temperatura: 20 - 50°C",
-              "Medidas": "363 x 369 x 170 mm, 5.6 kg"
-            },
-            "Fabricante": {
-              "Nombre_Empresa": "Philips",
-              "Contacto": "+1 800-722-9377",
-              "Direccion": "3000 Minuteman Rd, Andover, MA 01810, Estados Unidos",
-              "Email": "contact@philips.com",
-              "Calificacion": 4.8
-            }
-          },
-          {
-            "id": 7,
-            "title": "Máquina de electrocardiografía R12",
-            "price": 4500.00,
-            "description": "El electrocardiógrafo R12 de Mindray es un dispositivo de alta calidad y fácil de usar para la adquisición y el análisis de señales de ECG. Ofrece una gran pantalla táctil a color, análisis avanzado de datos y conectividad integrada para mejorar la eficiencia en la atención al paciente.",
-            "category": "Diagnostic",
-            "Estado": "Nuevo",
-            "warranty": "1 año",
-            "image": "https://www.promedco.com/images/Productos/MONITOREO-Y-SOPORTE-VITAL/ELECTROCARDIOGRAFOS/1_R12_pro.png",
-            "rating": {
-              "rate": 4.5,
-              "count": 10
-            },
-            "caracteristicas": {
-              "Modelo": "R12",
-              "Area_aplicacion": "Cardiología",
-              "Advertencias": "No utilizar en pacientes con marcapasos o desfibriladores implantados",
-              "Funciones": "Adquisición y análisis de señales de ECG, pantalla táctil a color, análisis avanzado de datos",
-              "Rangos": "12 derivaciones",
-              "Medidas": "Peso: 3.5 kg, Dimensiones: 40 x 30 x 15 cm"
-            },
-            "Fabricante": {
-              "Nombre_Empresa": "Mindray",
-              "Contacto": "+1 800-288-2121",
-              "Direccion": "800 MacArthur Blvd, Mahwah, NJ 07430, Estados Unidos",
-              "Email": "info@mindray.com",
-              "Calificacion": 4.8
-            }
-          },
-          {
-            "id": 8,
-            "title": "Camilla quirúrgica HYBASE 6100",
-            "price": 25000.00,
-            "description": "La camilla quirúrgica HYBASE 6100 de Mindray es una herramienta esencial en cualquier quirófano moderno. Esta camilla cuenta con una serie de características avanzadas que la hacen ideal para una amplia variedad de procedimientos quirúrgicos. Su diseño ergonómico, su amplia capacidad de carga y su fácil movilidad la convierten en una opción ideal para cualquier centro hospitalario.",
-            "category": "GeneralServices",
-            "Estado": "Nuevo",
-            "warranty": "2 años",
-            "image": "https://www.promedco.com/images/Productos/MONITOREO-Y-SOPORTE-VITAL/MESA-QUIRURGICA/6100/1-HYBASE-6100.png",
-            "rating": {
-              "rate": 4.5,
-              "count": 10
-            },
-            "caracteristicas": {
-              "Modelo": "HYBASE 6100",
-              "Area_aplicacion": "Quirófanos",
-              "Advertencias": "Leer cuidadosamente el manual antes de utilizar",
-              "Funciones": "Ajuste de altura, inclinación y posición de la sección del respaldo, ajuste de altura y posición de la sección de las piernas, ajuste de la posición del apoyabrazos, control remoto",
-              "Rangos": "Altura: 550-920mm, inclinación del respaldo: 0-65 grados, inclinación de la sección de las piernas: 0-30 grados, longitud de la sección de la pierna: 210mm, longitud de la sección de la cabeza: 360mm",
-              "Medidas": "Largo: 2100mm, Ancho: 540mm, Altura: 550-920mm"
-            },
-            "Fabricante": {
-              "Nombre_Empresa": "Mindray",
-              "Contacto": "+86-755-8188-8998",
-              "Direccion": "Mindray Building, Keji 12th Road South, High-tech Industrial Park, Nanshan, Shenzhen 518057, P.R. China",
-              "Email": "info@mindray.com",
-              "Calificacion": 4.8
-            }
-          },
-          {
-            "id": 9,
-            "title": "Nebulizador InnoSpire Deluxe",
-            "price": 129.99,
-            "description": "El nebulizador InnoSpire Deluxe de Philips es un dispositivo médico para el tratamiento de enfermedades respiratorias. Utiliza tecnología de nebulización de partículas finas para administrar medicamentos directamente a los pulmones, mejorando la eficacia del tratamiento. Además, cuenta con un sistema de control de flujo de aire ajustable para una nebulización más cómoda y personalizada.",
-            "category": "Rehabilitation",
-            "Estado": "Nuevo",
-            "warranty": "2 años",
-            "image": "https://images.philips.com/is/image/philipsconsumer/cacc114e27cf46a0b3aca77c016205ba?$jpglarge$&wid=420&hei=360",
-            "rating": {
-              "rate": 4.5,
-              "count": 24
-            },
-            "caracteristicas": {
-              "Modelo": "InnoSpire Deluxe",
-              "Area_aplicacion": "Tratamiento de enfermedades respiratorias",
-              "Advertencias": "Lea el manual de instrucciones antes de usar. Utilice solo medicamentos prescritos por un médico.",
-              "Funciones": "Nebulización de partículas finas. Control de flujo de aire ajustable. Fácil de usar y limpiar.",
-              "Rangos": "Tasa de nebulización: 0.2 ml/min. Capacidad del recipiente de medicamento: 10 ml.",
-              "Medidas": "Peso: 1.5 kg. Dimensiones: 18.8 x 14.4 x 10.5 cm."
-            },
-            "Fabricante": {
-              "Nombre_Empresa": "Philips",
-              "Contacto": "+1-800-555-0055",
-              "Direccion": "Amstelplein 2, 1096 BC Amsterdam, Países Bajos",
-              "Email": "contact@philips.com",
-              "Calificacion": 4.8
-            }
+      }
+    },
+    {
+      "id": 5,
+      "title": "Ultrasonido Cardiovascular Philips EPIQ Affiniti 70 CVx",
+      "price": 85000,
+      "description": "El Cardiovascular ultrasound Philips EPIQ Affiniti 70 CVx es un equipo de ultrasonido cardiovascular de alta gama que ofrece una calidad de imagen excepcional y una amplia gama de herramientas de diagnóstico avanzadas para la evaluación no invasiva de las enfermedades cardiovasculares. Este equipo cuenta con la tecnología avanzada de PureWave y una plataforma completamente rediseñada que proporciona una experiencia de usuario excepcional y una mayor eficiencia en la práctica clínica.",
+      "category": "Diagnostic",
+      "Estado": "Nuevo",
+      "warranty": "3 años",
+      "image": "https://www.philips.co.uk/c-dam/b2bhc/master/ultrasound/general-imaging/epiq-cvx.png",
+      "rating": {
+        "rate": 4.9,
+        "count": 22
       },
-      {
-        "id": 10,
-        "title": "Oxígeno portátil SimplyGo Mini",
-        "price": 1899.99,
-        "description": "El oxígeno portátil SimplyGo Mini de Philips es un concentrador de oxígeno ligero y fácil de transportar. Proporciona una fuente de oxígeno constante para personas que necesitan terapia de oxígeno en movimiento. Es ideal para viajes, paseos y otras actividades al aire libre.",
-        "category": "Rehabilitation",
-        "Estado": "Nuevo",
-        "warranty": "1 año",
-        "image": "https://images.philips.com/is/image/philipsconsumer/adc6023110f648cebf0fa9cf0162075e?$jpglarge$&wid=420&hei=360",
-        "rating": {
-          "rate": 4.5,
-          "count": 23
-        },
-        "caracteristicas": {
-          "Modelo": "SimplyGo Mini",
-          "Area_aplicacion": "Terapia de oxígeno",
-          "Advertencias": "No fumar mientras se use el dispositivo",
-          "Funciones": "Concentración de oxígeno ajustable, duración de la batería hasta 9 horas",
-          "Rangos": "Flujo de oxígeno: 0.5 a 5 litros por minuto",
-          "Medidas": "Peso: 2.3 kg, Dimensiones: 23.9 cm x 15.5 cm x 8.6 cm"
-        },
-        "Fabricante": {
-          "Nombre_Empresa": "Philips",
-          "Contacto": "+1-800-555-0055",
-          "Direccion": "3000 Minuteman Road, Andover, MA 01810, Estados Unidos",
-          "Email": "contact@philips.com",
-          "Calificacion": 4.8
-        }
+      "caracteristicas": {
+        "Modelo": "EPIQ Affiniti 70 CVx",
+        "Area_aplicacion": "Ultrasonido cardiovascular",
+        "Advertencias": "Este equipo debe ser utilizado únicamente por personal médico capacitado y entrenado en el uso de equipos de ultrasonido.",
+        "Funciones": "Doppler color, mapeo de tejido, estrés farmacológico, 4D en tiempo real, análisis cuantitativo de imágenes, automatización de mediciones",
+        "Rangos": "Frecuencia de trabajo: 1-5 MHz, profundidad máxima de imagen: 40 cm, velocidad de cuadros en 2D: 90 fps, velocidad de cuadros en 4D: 30 fps",
+        "Medidas": "Dimensiones: 70 cm x 144 cm x 161 cm, Peso: 500 kg"
       },
-      {
-        "id": 11,
-        "title": "Sistema de Rayos X Móvil Browiner - MobileCooper",
-        "price": 35000.00,
-        "description": "El sistema de Rayos X móvil Browiner - MobileCooper de la marca Mindray es una solución de imagenología avanzada que ofrece una gran calidad de imagen y flexibilidad de uso. Es ideal para aplicaciones en la sala de emergencias, quirófanos y cuidados intensivos.",
-        "category": "GeneralServices",
-        "Estado": "Nuevo",
-        "warranty": "2 años",
-        "image": "https://www.promedco.com/images/Productos/Rayos-X/mobile-cooper/2023/browiner.webp",
-        "rating": {
-          "rate": 4.5,
-          "count": 10
-        },
-        "caracteristicas": {
-          "Modelo": "Browiner - MobileCooper",
-          "Area_aplicacion": "Sala de emergencias, quirófanos, cuidados intensivos",
-          "Advertencias": "Usar solamente bajo supervisión médica",
-          "Funciones": "Calidad de imagen avanzada, flexibilidad de uso",
-          "Rangos": "100 kVp - 125 kVp",
-          "Medidas": "Altura: 1900 mm, Longitud: 2015 mm, Ancho: 720 mm"
-        },
-        "Fabricante": {
-          "Nombre_Empresa": "Mindray",
-          "Contacto": "+86-755-8188 8998",
-          "Direccion": "Mindray Building, Keji 12th Road South, High-tech Industrial Park, Nanshan, Shenzhen 518057, P.R. China",
-          "Email": "info@mindray.com",
-          "Calificacion": 4.7
-        }
+      "Fabricante": {
+        "Nombre_Empresa": "Philips",
+        "Contacto": "+31 40 27 91111",
+        "Direccion": "Philips Bldg. 5F, Amstelplein 2, 1096 BC Amsterdam, Países Bajos",
+        "Email": "info@philips.com",
+        "Calificacion": 4.7
+      }
+    },
+    {
+      "id": 6,
+      "title": "Monitor de signos vitales IntelliVue MX850",
+      "price": 11500,
+      "description": "El monitor de signos vitales IntelliVue MX850 de Philips proporciona una amplia gama de mediciones de parámetros fisiológicos, monitoreo de la función respiratoria y diagnóstico de arritmias.",
+      "category": "Monitoring",
+      "Estado": "Nuevo",
+      "warranty": "1 año",
+      "image": "https://images.philips.com/is/image/philipsconsumer/7a1df1a54ca4420a9c76aa8b00db4b44?$jpglarge$&wid=420&hei=360",
+      "rating": {
+        "rate": 4.5,
+        "count": 25
       },
-      {
-        "id": 12,
-        "title": "Monitor fetal Avalon FM50",
-        "price": 6500.00,
-        "description": "El monitor fetal Avalon FM50 es un equipo de alta calidad para la monitorización de la frecuencia cardíaca fetal y la actividad uterina durante el embarazo y el parto.",
-        "category": "Monitoring",
-        "Estado": "Nuevo",
-        "warranty": "1 año",
-        "image": "https://images.philips.com/is/image/philipsconsumer/f2cf2ca3e0c740358687a77c014d17bf?$jpglarge$&wid=420&hei=360",
-        "rating": {
-          "rate": 4.8,
-          "count": 25
-        },
-        "caracteristicas": {
-          "Modelo": "Avalon FM50",
-          "Area_aplicacion": "Monitoreo fetal",
-          "Advertencias": "No utilizar en pacientes con marcapasos",
-          "Funciones": "Monitoreo de la frecuencia cardíaca fetal, monitoreo de la actividad uterina, detección de arritmias fetales",
-          "Rangos": "Frecuencia cardíaca fetal: 30-240 bpm, actividad uterina: 0-1000 uV",
-          "Medidas": "Dimensiones: 33 x 23 x 10 cm, Peso: 3.5 kg"
-        },
-        "Fabricante": {
-          "Nombre_Empresa": "Philips",
-          "Contacto": "+1-800-555-0055",
-          "Direccion": "3000 Minuteman Road, Andover, MA 01810, Estados Unidos",
-          "Email": "contact@philips.com",
-          "Calificacion": 4.5
-        }
+      "caracteristicas": {
+        "Modelo": "IntelliVue MX850",
+        "Area_aplicacion": "Unidades de cuidados intensivos, salas de operaciones, servicios de urgencias",
+        "Advertencias": "Este dispositivo debe ser operado únicamente por personal capacitado y autorizado",
+        "Funciones": "Medición de la presión arterial, frecuencia cardíaca, frecuencia respiratoria, saturación de oxígeno, temperatura, entre otros",
+        "Rangos": "Presión arterial: 30 - 300 mmHg, frecuencia cardíaca: 20 - 300 bpm, frecuencia respiratoria: 5 - 150 bpm, saturación de oxígeno: 0 - 100%, temperatura: 20 - 50°C",
+        "Medidas": "363 x 369 x 170 mm, 5.6 kg"
       },
-      {
-        "id": 13,
-        "title": "Máscara de apnea Amara",
-        "price": 120.99,
-        "description": "La máscara de apnea Amara de Philips ofrece una comodidad y rendimiento excepcionales para los pacientes que necesitan terapia de sueño.",
-        "category": "Rehabilitation",
-        "Estado": "Nuevo",
-        "warranty": "1 año",
-        "image": "https://images.philips.com/is/image/PhilipsConsumer/HC1090203-RTP-en_AA-001?$jpglarge$&wid=420&hei=360",
-        "rating": {
-          "rate": 4.5,
-          "count": 50
-        },
-        "caracteristicas": {
-          "Modelo": "Amara",
-          "Area_aplicacion": "Terapia de apnea del sueño",
-          "Advertencias": "Solo para uso en interiores, no use en actividades al aire libre, no use durante la conducción",
-          "Funciones": "Sistema de almohadillas de silicona, clip de cabeza ajustable, marco de aluminio liviano",
-          "Rangos": "Tamaño de la máscara: pequeña, mediana, grande",
-          "Medidas": "Peso de la máscara: 95 g"
-        },
-        "Fabricante": {
-          "Nombre_Empresa": "Philips",
-          "Contacto": "+1-800-555-5555",
-          "Direccion": "123 Main St., Anytown, USA",
-          "Email": "contact@philips.com",
-          "Calificacion": 4.8
-        }
+      "Fabricante": {
+        "Nombre_Empresa": "Philips",
+        "Contacto": "+1 800-722-9377",
+        "Direccion": "3000 Minuteman Rd, Andover, MA 01810, Estados Unidos",
+        "Email": "contact@philips.com",
+        "Calificacion": 4.8
+      }
+    },
+    {
+      "id": 7,
+      "title": "Máquina de electrocardiografía R12",
+      "price": 4500,
+      "description": "El electrocardiógrafo R12 de Mindray es un dispositivo de alta calidad y fácil de usar para la adquisición y el análisis de señales de ECG. Ofrece una gran pantalla táctil a color, análisis avanzado de datos y conectividad integrada para mejorar la eficiencia en la atención al paciente.",
+      "category": "Diagnostic",
+      "Estado": "Nuevo",
+      "warranty": "1 año",
+      "image": "https://www.promedco.com/images/Productos/MONITOREO-Y-SOPORTE-VITAL/ELECTROCARDIOGRAFOS/1_R12_pro.png",
+      "rating": {
+        "rate": 4.5,
+        "count": 10
       },
-      { "id":14,
-        "title": "Equipo de electroterapia, terapia de ultrasonido y terapia cominada PhysioGo 300A/301A de ASTAR",
-        "price": 3000.00,
-        "description": "El equipo de electroterapia, terapia de ultrasonido y terapia cominada PhysioGo 300A/301A de ASTAR es un dispositivo de alta calidad y fácil de usar que ayuda en el tratamiento de dolores musculares y lesiones deportivas. Proporciona terapia de ultrasonido y electroterapia para el alivio del dolor y la rehabilitación de lesiones, y puede ser utilizado en combinación para una terapia más completa. Cuenta con una pantalla táctil a color de alta definición y una variedad de opciones de configuración para satisfacer las necesidades individuales de cada paciente.",
-        "category": "Therapeutic",
-        "Estado": "Nuevo",
-        "warranty": "1 año",
-        "image": "https://api.astar.eu/spain/wp-content/uploads/sites/4/2019/11/img47n553t600.jpg",
-        "rating": {
-          "rate": 4.5,
-          "count": 10
-        },
-        "caracteristicas": {
-          "Modelo": "PhysioGo 300A/301A",
-          "Area_aplicacion": "Rehabilitación y alivio del dolor",
-          "Advertencias": "Consulte con un médico antes de usar este equipo. No utilizar en pacientes con marcapasos.",
-          "Funciones": "Electroterapia, terapia de ultrasonido, terapia combinada",
-          "Rangos": "Frecuencia de ultrasonido: 1-3 MHz. Frecuencia de electroterapia: 1-150 Hz. Potencia de salida: 0-3 W/cm2",
-          "Medidas": "Dimensiones: 40 cm x 30 cm x 15 cm. Peso: 5 kg."
-        },
-        "Fabricante": {
-          "Nombre_Empresa": "ASTAR",
-          "Contacto": "+1 (305) 123-4567",
-          "Direccion": "123 Main Street, Suite 456, Miami, FL 33130",
-          "Email": "info@astar.com",
-          "Calificacion": 4.8
-        }
-      } ,
-      {
-        "id": 15,
-        "title": "Equipo de terapia de ondas de choque modelo Impactis M+",
-        "price": 8900.00,
-        "description": "El Impactis M+ es un equipo de terapia de ondas de choque electromagnético altamente eficaz para el tratamiento del dolor crónico y agudo en músculos, tendones, huesos y articulaciones. Se puede utilizar en ortopedia, fisioterapia, medicina deportiva y medicina del dolor.",
-        "category": "Therapeutic",
-        "Estado": "Nuevo",
-        "warranty": "1 año",
-        "image": "https://api.astar.eu/spain/wp-content/uploads/sites/4/2019/11/img19n988t1007.jpg",
-        "rating": {
+      "caracteristicas": {
+        "Modelo": "R12",
+        "Area_aplicacion": "Cardiología",
+        "Advertencias": "No utilizar en pacientes con marcapasos o desfibriladores implantados",
+        "Funciones": "Adquisición y análisis de señales de ECG, pantalla táctil a color, análisis avanzado de datos",
+        "Rangos": "12 derivaciones",
+        "Medidas": "Peso: 3.5 kg, Dimensiones: 40 x 30 x 15 cm"
+      },
+      "Fabricante": {
+        "Nombre_Empresa": "Mindray",
+        "Contacto": "+1 800-288-2121",
+        "Direccion": "800 MacArthur Blvd, Mahwah, NJ 07430, Estados Unidos",
+        "Email": "info@mindray.com",
+        "Calificacion": 4.8
+      }
+    },
+    {
+      "id": 8,
+      "title": "Camilla quirúrgica HYBASE 6100",
+      "price": 25000,
+      "description": "La camilla quirúrgica HYBASE 6100 de Mindray es una herramienta esencial en cualquier quirófano moderno. Esta camilla cuenta con una serie de características avanzadas que la hacen ideal para una amplia variedad de procedimientos quirúrgicos. Su diseño ergonómico, su amplia capacidad de carga y su fácil movilidad la convierten en una opción ideal para cualquier centro hospitalario.",
+      "category": "GeneralServices",
+      "Estado": "Nuevo",
+      "warranty": "2 años",
+      "image": "https://www.promedco.com/images/Productos/MONITOREO-Y-SOPORTE-VITAL/MESA-QUIRURGICA/6100/1-HYBASE-6100.png",
+      "rating": {
+        "rate": 4.5,
+        "count": 10
+      },
+      "caracteristicas": {
+        "Modelo": "HYBASE 6100",
+        "Area_aplicacion": "Quirófanos",
+        "Advertencias": "Leer cuidadosamente el manual antes de utilizar",
+        "Funciones": "Ajuste de altura, inclinación y posición de la sección del respaldo, ajuste de altura y posición de la sección de las piernas, ajuste de la posición del apoyabrazos, control remoto",
+        "Rangos": "Altura: 550-920mm, inclinación del respaldo: 0-65 grados, inclinación de la sección de las piernas: 0-30 grados, longitud de la sección de la pierna: 210mm, longitud de la sección de la cabeza: 360mm",
+        "Medidas": "Largo: 2100mm, Ancho: 540mm, Altura: 550-920mm"
+      },
+      "Fabricante": {
+        "Nombre_Empresa": "Mindray",
+        "Contacto": "+86-755-8188-8998",
+        "Direccion": "Mindray Building, Keji 12th Road South, High-tech Industrial Park, Nanshan, Shenzhen 518057, P.R. China",
+        "Email": "info@mindray.com",
+        "Calificacion": 4.8
+      }
+    },
+    {
+      "id": 9,
+      "title": "Nebulizador InnoSpire Deluxe",
+      "price": 129.99,
+      "description": "El nebulizador InnoSpire Deluxe de Philips es un dispositivo médico para el tratamiento de enfermedades respiratorias. Utiliza tecnología de nebulización de partículas finas para administrar medicamentos directamente a los pulmones, mejorando la eficacia del tratamiento. Además, cuenta con un sistema de control de flujo de aire ajustable para una nebulización más cómoda y personalizada.",
+      "category": "Rehabilitation",
+      "Estado": "Nuevo",
+      "warranty": "2 años",
+      "image": "https://images.philips.com/is/image/philipsconsumer/cacc114e27cf46a0b3aca77c016205ba?$jpglarge$&wid=420&hei=360",
+      "rating": {
+        "rate": 4.5,
+        "count": 24
+      },
+      "caracteristicas": {
+        "Modelo": "InnoSpire Deluxe",
+        "Area_aplicacion": "Tratamiento de enfermedades respiratorias",
+        "Advertencias": "Lea el manual de instrucciones antes de usar. Utilice solo medicamentos prescritos por un médico.",
+        "Funciones": "Nebulización de partículas finas. Control de flujo de aire ajustable. Fácil de usar y limpiar.",
+        "Rangos": "Tasa de nebulización: 0.2 ml/min. Capacidad del recipiente de medicamento: 10 ml.",
+        "Medidas": "Peso: 1.5 kg. Dimensiones: 18.8 x 14.4 x 10.5 cm."
+      },
+      "Fabricante": {
+        "Nombre_Empresa": "Philips",
+        "Contacto": "+1-800-555-0055",
+        "Direccion": "Amstelplein 2, 1096 BC Amsterdam, Países Bajos",
+        "Email": "contact@philips.com",
+        "Calificacion": 4.8
+      }
+    },
+    {
+      "id": 10,
+      "title": "Oxígeno portátil SimplyGo Mini",
+      "price": 1899.99,
+      "description": "El oxígeno portátil SimplyGo Mini de Philips es un concentrador de oxígeno ligero y fácil de transportar. Proporciona una fuente de oxígeno constante para personas que necesitan terapia de oxígeno en movimiento. Es ideal para viajes, paseos y otras actividades al aire libre.",
+      "category": "Rehabilitation",
+      "Estado": "Nuevo",
+      "warranty": "1 año",
+      "image": "https://images.philips.com/is/image/philipsconsumer/adc6023110f648cebf0fa9cf0162075e?$jpglarge$&wid=420&hei=360",
+      "rating": {
+        "rate": 4.5,
+        "count": 23
+      },
+      "caracteristicas": {
+        "Modelo": "SimplyGo Mini",
+        "Area_aplicacion": "Terapia de oxígeno",
+        "Advertencias": "No fumar mientras se use el dispositivo",
+        "Funciones": "Concentración de oxígeno ajustable, duración de la batería hasta 9 horas",
+        "Rangos": "Flujo de oxígeno: 0.5 a 5 litros por minuto",
+        "Medidas": "Peso: 2.3 kg, Dimensiones: 23.9 cm x 15.5 cm x 8.6 cm"
+      },
+      "Fabricante": {
+        "Nombre_Empresa": "Philips",
+        "Contacto": "+1-800-555-0055",
+        "Direccion": "3000 Minuteman Road, Andover, MA 01810, Estados Unidos",
+        "Email": "contact@philips.com",
+        "Calificacion": 4.8
+      }
+    },
+    {
+      "id": 11,
+      "title": "Sistema de Rayos X Móvil Browiner - MobileCooper",
+      "price": 35000,
+      "description": "El sistema de Rayos X móvil Browiner - MobileCooper de la marca Mindray es una solución de imagenología avanzada que ofrece una gran calidad de imagen y flexibilidad de uso. Es ideal para aplicaciones en la sala de emergencias, quirófanos y cuidados intensivos.",
+      "category": "GeneralServices",
+      "Estado": "Nuevo",
+      "warranty": "2 años",
+      "image": "https://www.promedco.com/images/Productos/Rayos-X/mobile-cooper/2023/browiner.webp",
+      "rating": {
+        "rate": 4.5,
+        "count": 10
+      },
+      "caracteristicas": {
+        "Modelo": "Browiner - MobileCooper",
+        "Area_aplicacion": "Sala de emergencias, quirófanos, cuidados intensivos",
+        "Advertencias": "Usar solamente bajo supervisión médica",
+        "Funciones": "Calidad de imagen avanzada, flexibilidad de uso",
+        "Rangos": "100 kVp - 125 kVp",
+        "Medidas": "Altura: 1900 mm, Longitud: 2015 mm, Ancho: 720 mm"
+      },
+      "Fabricante": {
+        "Nombre_Empresa": "Mindray",
+        "Contacto": "+86-755-8188 8998",
+        "Direccion": "Mindray Building, Keji 12th Road South, High-tech Industrial Park, Nanshan, Shenzhen 518057, P.R. China",
+        "Email": "info@mindray.com",
+        "Calificacion": 4.7
+      }
+    },
+    {
+      "id": 12,
+      "title": "Monitor fetal Avalon FM50",
+      "price": 6500,
+      "description": "El monitor fetal Avalon FM50 es un equipo de alta calidad para la monitorización de la frecuencia cardíaca fetal y la actividad uterina durante el embarazo y el parto.",
+      "category": "Monitoring",
+      "Estado": "Nuevo",
+      "warranty": "1 año",
+      "image": "https://images.philips.com/is/image/philipsconsumer/f2cf2ca3e0c740358687a77c014d17bf?$jpglarge$&wid=420&hei=360",
+      "rating": {
+        "rate": 4.8,
+        "count": 25
+      },
+      "caracteristicas": {
+        "Modelo": "Avalon FM50",
+        "Area_aplicacion": "Monitoreo fetal",
+        "Advertencias": "No utilizar en pacientes con marcapasos",
+        "Funciones": "Monitoreo de la frecuencia cardíaca fetal, monitoreo de la actividad uterina, detección de arritmias fetales",
+        "Rangos": "Frecuencia cardíaca fetal: 30-240 bpm, actividad uterina: 0-1000 uV",
+        "Medidas": "Dimensiones: 33 x 23 x 10 cm, Peso: 3.5 kg"
+      },
+      "Fabricante": {
+        "Nombre_Empresa": "Philips",
+        "Contacto": "+1-800-555-0055",
+        "Direccion": "3000 Minuteman Road, Andover, MA 01810, Estados Unidos",
+        "Email": "contact@philips.com",
+        "Calificacion": 4.5
+      }
+    },
+    {
+      "id": 13,
+      "title": "Máscara de apnea Amara",
+      "price": 120.99,
+      "description": "La máscara de apnea Amara de Philips ofrece una comodidad y rendimiento excepcionales para los pacientes que necesitan terapia de sueño.",
+      "category": "Rehabilitation",
+      "Estado": "Nuevo",
+      "warranty": "1 año",
+      "image": "https://images.philips.com/is/image/PhilipsConsumer/HC1090203-RTP-en_AA-001?$jpglarge$&wid=420&hei=360",
+      "rating": {
+        "rate": 4.5,
+        "count": 50
+      },
+      "caracteristicas": {
+        "Modelo": "Amara",
+        "Area_aplicacion": "Terapia de apnea del sueño",
+        "Advertencias": "Solo para uso en interiores, no use en actividades al aire libre, no use durante la conducción",
+        "Funciones": "Sistema de almohadillas de silicona, clip de cabeza ajustable, marco de aluminio liviano",
+        "Rangos": "Tamaño de la máscara: pequeña, mediana, grande",
+        "Medidas": "Peso de la máscara: 95 g"
+      },
+      "Fabricante": {
+        "Nombre_Empresa": "Philips",
+        "Contacto": "+1-800-555-5555",
+        "Direccion": "123 Main St., Anytown, USA",
+        "Email": "contact@philips.com",
+        "Calificacion": 4.8
+      }
+    },
+    {
+      "id": 14,
+      "title": "Equipo de electroterapia, terapia de ultrasonido y terapia cominada PhysioGo 300A/301A de ASTAR",
+      "price": 3000,
+      "description": "El equipo de electroterapia, terapia de ultrasonido y terapia cominada PhysioGo 300A/301A de ASTAR es un dispositivo de alta calidad y fácil de usar que ayuda en el tratamiento de dolores musculares y lesiones deportivas. Proporciona terapia de ultrasonido y electroterapia para el alivio del dolor y la rehabilitación de lesiones, y puede ser utilizado en combinación para una terapia más completa. Cuenta con una pantalla táctil a color de alta definición y una variedad de opciones de configuración para satisfacer las necesidades individuales de cada paciente.",
+      "category": "Therapeutic",
+      "Estado": "Nuevo",
+      "warranty": "1 año",
+      "image": "https://api.astar.eu/spain/wp-content/uploads/sites/4/2019/11/img47n553t600.jpg",
+      "rating": {
+        "rate": 4.5,
+        "count": 10
+      },
+      "caracteristicas": {
+        "Modelo": "PhysioGo 300A/301A",
+        "Area_aplicacion": "Rehabilitación y alivio del dolor",
+        "Advertencias": "Consulte con un médico antes de usar este equipo. No utilizar en pacientes con marcapasos.",
+        "Funciones": "Electroterapia, terapia de ultrasonido, terapia combinada",
+        "Rangos": "Frecuencia de ultrasonido: 1-3 MHz. Frecuencia de electroterapia: 1-150 Hz. Potencia de salida: 0-3 W/cm2",
+        "Medidas": "Dimensiones: 40 cm x 30 cm x 15 cm. Peso: 5 kg."
+      },
+      "Fabricante": {
+        "Nombre_Empresa": "ASTAR",
+        "Contacto": "+1 (305) 123-4567",
+        "Direccion": "123 Main Street, Suite 456, Miami, FL 33130",
+        "Email": "info@astar.com",
+        "Calificacion": 4.8
+      }
+    },
+    {
+      "id": 15,
+      "title": "Equipo de terapia de ondas de choque modelo Impactis M+",
+      "price": 8900,
+      "description": "El Impactis M+ es un equipo de terapia de ondas de choque electromagnético altamente eficaz para el tratamiento del dolor crónico y agudo en músculos, tendones, huesos y articulaciones. Se puede utilizar en ortopedia, fisioterapia, medicina deportiva y medicina del dolor.",
+      "category": "Therapeutic",
+      "Estado": "Nuevo",
+      "warranty": "1 año",
+      "image": "https://api.astar.eu/spain/wp-content/uploads/sites/4/2019/11/img19n988t1007.jpg",
+      "rating": {
         "rate": 4.8,
         "count": 12
-        },
-        "caracteristicas": {
+      },
+      "caracteristicas": {
         "Modelo": "Impactis M+",
         "Area_aplicacion": "Ortopedia, fisioterapia, medicina deportiva, medicina del dolor",
         "Advertencias": "Consulte a su médico antes de utilizar este equipo. No lo utilice cerca de áreas sensibles o en pacientes con trastornos hemorrágicos.",
         "Funciones": "Terapia de ondas de choque electromagnético, 20 niveles de intensidad ajustables, pantalla táctil a color de 7 pulgadas, 38 programas predefinidos, conexión Bluetooth para impresora y actualizaciones de software",
         "Rangos": "Frecuencia: 1-21 Hz, Energía: 10-185 mJ/mm²",
         "Medidas": "Alto: 110 cm, Ancho: 40 cm, Profundidad: 45 cm, Peso: 27 kg"
-        },
-        "Fabricante": {
+      },
+      "Fabricante": {
         "Nombre_Empresa": "ASTAR",
         "Contacto": "+1 (305) 123-4567",
         "Direccion": "123 Main Street, Suite 456, Miami, FL 33130",
         "Email": "info@astar.com",
         "Calificacion": 4.9
-        }
-        },
-        {
-          "id": 16,
-          "title": "Equipo de Fototerapia Lumina de ASTAR",
-          "price": 1200.00,
-          "description": "Equipo de fototerapia Lumina es dispositivo de clase premium, el cual permite realizar tratamientos con la radiación infrarroja en el espectro de IR-A e IR-B. La terapia por radiación infrarroja (infraterapia) es un tratamiento que utiliza la radiación que penetra dentro de los tejidos.",
-          "category": "Therapeutic",
-          "Estado": "Nuevo",
-          "warranty": "1 año",
-          "image": "https://api.astar.eu/spain/wp-content/uploads/sites/4/2019/11/img33n883t916.jpg",
-          "rating": {
-            "rate": 4.5,
-            "count": 25
-          },
-          "caracteristicas": {
-            "Modelo": "Lumina",
-            "Area_aplicacion": "Dermatología, Fisioterapia",
-            "Advertencias": "No exponer directamente a los ojos",
-            "Funciones": "Tratamientos de fisioterapia",
-            "Rangos": "Longitudes de onda de 415nm, 525nm y 630nm",
-            "Medidas": "20cm x 40cm x 10cm"
-          },
-          "Fabricante": {
-            "Nombre_Empresa": "ASTAR",
-            "Contacto": "+1 (305) 123-4567",
-            "Direccion": "123 Main Street, Suite 456, Miami, FL 33130",
-            "Email": "info@astar.com",
-            "Calificacion": 4.8
-          }
-        }
-        
+      }
+    },
+    {
+      "id": 16,
+      "title": "Equipo de Fototerapia Lumina de ASTAR",
+      "price": 1200,
+      "description": "Equipo de fototerapia Lumina es dispositivo de clase premium, el cual permite realizar tratamientos con la radiación infrarroja en el espectro de IR-A e IR-B. La terapia por radiación infrarroja (infraterapia) es un tratamiento que utiliza la radiación que penetra dentro de los tejidos.",
+      "category": "Therapeutic",
+      "Estado": "Nuevo",
+      "warranty": "1 año",
+      "image": "https://api.astar.eu/spain/wp-content/uploads/sites/4/2019/11/img33n883t916.jpg",
+      "rating": {
+        "rate": 4.5,
+        "count": 25
+      },
+      "caracteristicas": {
+        "Modelo": "Lumina",
+        "Area_aplicacion": "Dermatología, Fisioterapia",
+        "Advertencias": "No exponer directamente a los ojos",
+        "Funciones": "Tratamientos de fisioterapia",
+        "Rangos": "Longitudes de onda de 415nm, 525nm y 630nm",
+        "Medidas": "20cm x 40cm x 10cm"
+      },
+      "Fabricante": {
+        "Nombre_Empresa": "ASTAR",
+        "Contacto": "+1 (305) 123-4567",
+        "Direccion": "123 Main Street, Suite 456, Miami, FL 33130",
+        "Email": "info@astar.com",
+        "Calificacion": 4.8
+      }
+    }
   ],
   "registro": [
     {
@@ -475,21 +474,9 @@
     },
     {
       "name": "Camilo",
-      "email": "camiz1120@gmai.com",
-      "password": "67",
+      "email": "camizu1120@gmail.com",
+      "password": "$2a$10$lBEIK5LiqtupuiwvzxkjHOWwGj5hPvXwj1JNvPN47jdFEWAyLTywK",
       "id": 2
-    },
-    {
-      "name": "Camilo",
-      "email": "camizu112@gmai.com",
-      "password": "$2a$10$Ov.aMgz9lIuDNOcVFWb8d.b/kTxa2Yr5MHzB2Vdw/c.wz2OUODLIy",
-      "id": 3
-    },
-    {
-      "name": "Sara",
-      "email": "sarisperez99@gmail.com",
-      "password": "$2a$10$2xCb7Kq2ccQaHk//xj84iOOhTq3K.7teCsh3UvsQr31A7YUVfKdQ.",
-      "id": 4
     }
   ],
   "citas": [

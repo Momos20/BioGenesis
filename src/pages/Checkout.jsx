@@ -26,7 +26,7 @@ const Checkout = () => {
   
     // Verificar si los campos obligatorios están vacíos
     if (!representative || !email || !address || !country || !state || !zip) {
-      setMessage('Los campos obligatorios son requeridos.');
+      setMessage('All fields are required ');
       return;
     }
   
@@ -41,7 +41,7 @@ const Checkout = () => {
       if (error.response && error.response.data) {
         setMessage(error.response.data);
       } else {
-        setMessage('Ha ocurrido un error al enviar el formulario.');
+        setMessage('An error occurred while sending the form');
       }
     }
   };
