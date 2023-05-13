@@ -15,7 +15,6 @@ Si estás interesado/a en alguno de nuestros productos, no dudes en agendar una 
   npx json-server --watch server.json --port 5000
 ```
 
-
 ## Autores
 
 - Manuela Ospina Giraldo
@@ -23,4 +22,3 @@ Si estás interesado/a en alguno de nuestros productos, no dudes en agendar una 
 - Sara Pérez Higuita
 - Juan Camilo Cataño Zuleta
 - Daniel Enrique López Yepes
-
