@@ -1,5 +1,5 @@
 
-# Biogénesis
+# BioGénesis
 
 Biogénesis es una empresa ficticia desarrollada durante la asignatura de Desarrollo de aplicaciones web, del programa de Bioingeniería de la Universidad de Antioquia en el semestre 2023-1.
 
