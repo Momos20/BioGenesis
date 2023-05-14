@@ -14,7 +14,7 @@ Si estás interesado/a en alguno de nuestros productos, no dudes en agendar una 
 ```
   npx json-server --watch server.json --port 5000
 ```
-Una vez iniciado el server, el otra terminal corremos los siguientes codigos para inicial el Front
+Una vez iniciado el server, en otra consola corremos los siguientes codigos para iniciar el Front
 
 ### Codigos para iniciar el Front
 
