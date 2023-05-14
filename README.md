@@ -12,12 +12,15 @@ Si estás interesado/a en alguno de nuestros productos, no dudes en agendar una 
 #### Código para iniciar el server
 
 ```
-  npm install
-  npm start
   npx json-server --watch server.json --port 5000
 ```
+Una vez iniciado el server, el otra terminal corremos los siguientes codigos para inicial el Front
+###Codigos para iniciar el Front
 
-
+```
+  npm install
+  npm start
+```
 ## Autores
 
 
