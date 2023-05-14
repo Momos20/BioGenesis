@@ -12,8 +12,11 @@ Si estás interesado/a en alguno de nuestros productos, no dudes en agendar una 
 #### Código para iniciar el server
 
 ```
+  npm install
+  npm start
   npx json-server --watch server.json --port 5000
 ```
+
 
 ## Autores
 
