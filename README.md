@@ -16,7 +16,7 @@ Si estás interesado/a en alguno de nuestros productos, no dudes en agendar una 
 ```
 Una vez iniciado el server, en otra consola corremos los siguientes codigos para iniciar el Front
 
-### Codigos para iniciar el Front
+#### Codigos para iniciar el Front
 
 ```
   npm install
