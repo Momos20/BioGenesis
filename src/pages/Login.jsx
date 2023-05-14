@@ -19,7 +19,7 @@ const Login = ({ onLogin }) => {
   
     // Verificar si los campos están vacíos
     if (!email || !password) {
-      setMessage('Email and password are rresolve: {  fallback: {    "crypto": require.resolve("crypto-browserify")  }}equired.');
+      setMessage('Email and password are required ');
       return;
     }
   
