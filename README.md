@@ -24,8 +24,5 @@ Una vez iniciado el server, en otra consola corremos los siguientes codigos para
 ```
 ## Autores
 
-
-- Tatiana Camila Córdoba Acosta
 - Sara Pérez Higuita
 - Juan Camilo Cataño Zuleta
-- Daniel Enrique López Yepes
