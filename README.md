@@ -26,3 +26,4 @@ Una vez iniciado el server, en otra consola corremos los siguientes codigos para
 
 - Sara Pérez Higuita
 - Juan Camilo Cataño Zuleta
+- Daniel Lopez Yepes
