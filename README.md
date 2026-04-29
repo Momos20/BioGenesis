@@ -22,8 +22,3 @@ Una vez iniciado el server, en otra consola corremos los siguientes codigos para
   npm install
   npm start
 ```
-## Autores
-
-- Sara Pérez Higuita
-- Juan Camilo Cataño Zuleta
-- Daniel Lopez Yepes
