@@ -1,36 +1,29 @@
-import React from "react";
-const Home = () => {
+import React from 'react';
 
-
-
-  
+const Main = () => {
   return (
-    
-    <>
-      <div className="hero border-1 pb-3">
-        <div className="card bg-dark text-white border-0 mx-3">
-         {/* <img
-            className="card-img img-fluid"
-            src="./assets/main.png.jpg"
-            alt="Card"
-            height={500}
+    <section className="hero-section">
+      <div className="container-fluid px-3 px-md-4">
+        <div className="hero-card">
+          <img
+            className="hero-card__image"
+            src="/assets/main.png.jpg"
+            alt="Equipos médicos BioGenesis"
+            loading="eager"
           />
-          
-           <div className="card-img-overlay d-flex align-items-center">
-      <div className="container">
-        <h5 className="card-title fs-1 text fw-lighter">BioGenesis</h5>
-        <p className="card-text fs-5 d-none d-sm-block ">
-          This is a wider card with supporting text below as a natural
-          lead-in to additional content. This content is a little bit
-          longer.
-        </p>
-      </div>
-    </div> */}
-          
+          <div className="hero-card__overlay">
+            <div className="hero-card__content">
+              <span className="hero-card__eyebrow">Tecnología médica por encargo</span>
+              <h1 className="hero-card__title">BioGenesis</h1>
+              <p className="hero-card__text">
+                Soluciones biomédicas con cotización personalizada para instituciones de salud.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 
-export default Home;
+export default Main;

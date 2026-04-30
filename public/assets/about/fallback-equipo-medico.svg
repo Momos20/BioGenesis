@@ -1,0 +1,9 @@
+<svg width="900" height="620" viewBox="0 0 900 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="620" rx="42" fill="#F8FAFC"/>
+  <circle cx="720" cy="125" r="105" fill="#E0F2FE"/>
+  <circle cx="190" cy="505" r="125" fill="#ECFDF3"/>
+  <rect x="210" y="150" width="480" height="310" rx="38" fill="white" stroke="#0F766E" stroke-width="12"/>
+  <path d="M275 305H345L378 250L420 375L470 225L520 305H625" stroke="#0F766E" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="345" y="460" width="210" height="36" rx="18" fill="#0F766E"/>
+  <text x="222" y="90" fill="#101828" font-family="Arial" font-size="42" font-weight="800">BioGenesis</text>
+</svg>

@@ -1,6 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { Navbar } from "../components";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Navbar } from '../../components';
 
 const PageNotFound = () => {
   return (
@@ -14,9 +14,9 @@ const PageNotFound = () => {
               <p>To access this page you must login or register</p>
               <div className="my-4">
                 <Link to="/login" className="btn btn-dark mx-2">
-                Login
+                  Login
                 </Link>
-                <Link to="/register" className="btn  btn-dark mx-2">
+                <Link to="/register" className="btn btn-dark mx-2">
                   Register
                 </Link>
               </div>
