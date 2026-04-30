@@ -1,0 +1,14 @@
+<svg width="900" height="620" viewBox="0 0 900 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="620" rx="42" fill="#ECFDF3"/>
+  <circle cx="720" cy="120" r="96" fill="#D1FADF"/>
+  <circle cx="170" cy="505" r="130" fill="#CCFBEF"/>
+  <rect x="160" y="150" width="420" height="260" rx="30" fill="white" stroke="#0F766E" stroke-width="12"/>
+  <rect x="205" y="195" width="330" height="150" rx="18" fill="#E0F2FE"/>
+  <path d="M225 276H282L306 238L346 326L386 212L429 276H515" stroke="#0F766E" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="250" y="445" width="230" height="30" rx="15" fill="#0F766E"/>
+  <rect x="320" y="410" width="90" height="50" fill="#0F766E"/>
+  <circle cx="670" cy="340" r="82" fill="white" stroke="#0F766E" stroke-width="12"/>
+  <circle cx="670" cy="340" r="42" fill="#99F6E4"/>
+  <path d="M728 398L790 460" stroke="#0F766E" stroke-width="18" stroke-linecap="round"/>
+  <text x="150" y="88" fill="#101828" font-family="Arial" font-size="42" font-weight="800">Diagnóstico</text>
+</svg>

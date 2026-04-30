@@ -1,0 +1,16 @@
+<svg width="900" height="620" viewBox="0 0 900 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="620" rx="42" fill="#F5F3FF"/>
+  <circle cx="720" cy="120" r="96" fill="#DDD6FE"/>
+  <circle cx="190" cy="505" r="128" fill="#EDE9FE"/>
+  <circle cx="355" cy="230" r="52" fill="#8B5CF6"/>
+  <path d="M355 292V400" stroke="#7C3AED" stroke-width="28" stroke-linecap="round"/>
+  <path d="M355 335L260 392" stroke="#7C3AED" stroke-width="24" stroke-linecap="round"/>
+  <path d="M355 335L470 382" stroke="#7C3AED" stroke-width="24" stroke-linecap="round"/>
+  <path d="M355 400L300 508" stroke="#7C3AED" stroke-width="26" stroke-linecap="round"/>
+  <path d="M355 400L455 508" stroke="#7C3AED" stroke-width="26" stroke-linecap="round"/>
+  <rect x="550" y="220" width="170" height="260" rx="34" fill="white" stroke="#7C3AED" stroke-width="12"/>
+  <path d="M592 292H678" stroke="#C4B5FD" stroke-width="18" stroke-linecap="round"/>
+  <path d="M592 352H678" stroke="#C4B5FD" stroke-width="18" stroke-linecap="round"/>
+  <path d="M592 412H650" stroke="#C4B5FD" stroke-width="18" stroke-linecap="round"/>
+  <text x="150" y="88" fill="#101828" font-family="Arial" font-size="42" font-weight="800">Rehabilitación</text>
+</svg>
